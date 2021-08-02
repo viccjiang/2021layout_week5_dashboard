@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap');
+
+// font-family: 'Lato', sans-serif;
+// font-family: 'Roboto Mono', monospace;
+
+
+*,*::before,*::after{
+    box-sizing: border-box;
+  }
+
+
+a{
+    display: block;
+    text-decoration: none;
+    color:$black;
+}
+
+ol, ul {
+  list-style: none;
+  padding-left:0;
+  margin-bottom: 0;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align:middle; // display: block;
+}
+
+body {
+    font-family: $font-family-base;
+    font-size: $font-size-base;
+    line-height: 1.5; //24px
+}
+
+h1, h2, h3, h4, h5, h6
+  .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight: bold;
+    line-height: 1.2;
+  
+}
+
+

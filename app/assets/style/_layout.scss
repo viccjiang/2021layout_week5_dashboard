@@ -1,0 +1,22 @@
+.wrap {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+.logo {
+    padding: 32px;
+    a {
+      width: 151px;
+      height: 40px;
+      overflow: hidden;
+      text-indent: 101%;
+      white-space: nowrap;
+      background-image: url(../../assets/images/logo-ANSWER.svg);
+    }
+  }
+
+.sidebar{
+    width: 296px;
+    height: 100vh;
+}
+

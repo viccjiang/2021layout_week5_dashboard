@@ -1,3 +1,14 @@
-@import "functions";
-@import "./helpers/variables";
-@import "bootstrap";
+
+@import "../../../node_modules/bootstrap/scss/functions";
+@import './helpers/variables';
+@import '../../../node_modules/bootstrap/scss/mixins';
+@import '../../../node_modules/bootstrap/scss/bootstrap';
+
+@import "./base";
+@import "./layout";
+@import "./pages/admin";
+@import "./pages/index";
+
+// @import "functions";
+// @import "./helpers/variables";
+// @import "bootstrap";
