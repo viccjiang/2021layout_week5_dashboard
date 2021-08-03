@@ -12342,12 +12342,30 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6 .h1, .h6 .h1, .h2, .h3, .h4, .h5
   height: 100vh;
 }
 
+.sidebars-item {
+  position: relative;
+}
+
+.sidebars-item.active::hover {
+  content: "";
+  position: absolute;
+  left: -32px;
+  width: 4px;
+  height: 32px;
+  border-left: 4px solid #198754;
+}
+
 .content {
-  width: 984px;
+  max-width: 984px;
 }
 
 .content-navbar {
-  padding: 32px;
+  padding: 32px 32px 44px 32px;
+}
+
+.main {
+  max-width: 984px;
+  padding: 0 20px;
 }
 
 /*# sourceMappingURL=all.css.map */

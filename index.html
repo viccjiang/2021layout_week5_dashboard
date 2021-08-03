@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Boostrap Index</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
   <link rel="stylesheet" href="./assets/style/all.css">
@@ -20,7 +19,7 @@
       </h1>
       <div class="sidebar-content d-flex flex-column justify-content-between">
         <ul class="sidebars-list px-5">
-          <li class="sidebars-item">
+          <li class="sidebars-item  active">
             <a class="d-flex align-items-center  py-3 fw-bold" href="#">
               <span class="material-icons me-3 fs-4 fw-bold">
                 insert_chart
@@ -76,10 +75,10 @@
               All Courses
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="#">HTML</a></li>
+              <li><a class="dropdown-item" href="#">CSS</a></li>
+              <li><a class="dropdown-item" href="#">JS</a></li>
+              <li><a class="dropdown-item" href="#">Vue</a></li>
             </ul>
           </li>
 
@@ -99,19 +98,92 @@
               </span></a>
           </li>
         </ul>
-
-
       </div>
+
+      <ul class="ps-5">
+    <li class="content-navbar-item dropdown ">
+        <a class="fs-6 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            All (4)
+        </a>
+
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">已解決</a></li>
+            <li><a class="dropdown-item" href="#">待解決</a></li>
+            <li><a class="dropdown-item" href="#">未解決</a></li>
+            <li><a class="dropdown-item" href="#">本日新增</a></li>
+        </ul>
+    </li>
+</ul>
+
+<div class="main">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="list-group" id="list-tab" role="tablist">
+                    <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list"
+                        href="#list-home" role="tab" aria-controls="list-home">
+                        Home
+                    </a>
+                    <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list"
+                        href="#list-profile" role="tab" aria-controls="list-profile">Profile</a>
+                    <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list"
+                        href="#list-messages" role="tab" aria-controls="list-messages">Messages</a>
+                    <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list"
+                        href="#list-settings" role="tab" aria-controls="list-settings">Settings</a>
+                </div>
+            </div>
+            <div class="col-12 col-md-8">
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="list-home" role="tabpanel"
+                        aria-labelledby="list-home-list">
+                        <div class="card mb-3">
+                            <div class="card-header">
+                                Featured
+                            </div>
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0">
+                                        <img src="..." alt="...">
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                        This is <code class="text-success bg-light px-1 rounded-1">some</code> content
+                                        from
+                                        a media component. You can replace this with any content and adjust it as
+                                        needed.
+                                        <a href="#" class="btn btn-light border"
+                                            download="HW-2-David.zip">HW-2-David.zip</a>
+                                    </div>
+                                </div>
+                                <div id="editor" class="editor">This is some sample content.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                        ...2
+                    </div>
+                    <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+                        ...3
+                    </div>
+                    <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+                        ...4
+                    </div>
+                </div>
+                <div class="d-flex justify-content-end">
+                    <button type="button" class="btn btn-outline-success me-3">Mark as read</button>
+                    <button type="button" class="btn btn-success">Reply</button>
+                </div>
+            </div>
+        </div>
+
     </div>
 
-    <div class="main">
 
-    </div>
   </div>
 
 
 
-  
+
 
 
   </div>
