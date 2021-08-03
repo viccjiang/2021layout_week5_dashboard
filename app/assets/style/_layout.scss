@@ -20,3 +20,16 @@
     height: 100vh;
 }
 
+.sidebars-item{
+  position: relative;
+}
+
+
+.sidebars-item.active::hover{
+  content: "";
+  position: absolute;
+  left: -32px;
+  width: 4px;
+  height: 32px;
+  border-left: 4px solid #198754;
+}
