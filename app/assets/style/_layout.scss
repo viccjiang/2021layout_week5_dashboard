@@ -22,26 +22,30 @@
 
 
 
-.sidebars-item{
-  position: relative;
- 
-        a{
-            color: #212529;
 
-            // &:before{
-            //     left:-32px;
-            //     border-left: 4px solid #198754;
-            //     color: #198754;
-            // }
-            &:hover{
-              position: absolute;
-              left:0;
-              border-left: 4px solid #198754;
-              color: #198754;
-          }
+
+  .sidebars-item{
+    // position: relative;
+   
+          a{
+              color: #212529;
+  
+              // &:before{
+              //     left:-32px;
+              //     border-left: 4px solid #198754;
+              //     color: #198754;
+              // }
+              &:hover{
+                // position: absolute;
+                left:0;
+                border-left: 4px solid #198754;
+                color: #198754;
+            }
+  
+   
+    }
 
  
-  }
-}
+  }  
 
 
