@@ -12346,13 +12346,15 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6 .h1, .h6 .h1, .h2, .h3, .h4, .h5
   position: relative;
 }
 
-.sidebars-item.active::hover {
-  content: "";
+.sidebars-item a {
+  color: #212529;
+}
+
+.sidebars-item a:hover {
   position: absolute;
-  left: -32px;
-  width: 4px;
-  height: 32px;
+  left: 0;
   border-left: 4px solid #198754;
+  color: #198754;
 }
 
 .content {
