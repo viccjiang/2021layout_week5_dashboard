@@ -13,12 +13,12 @@
 
 <body>
   <div class="wrap d-flex">
-    <div class="sidebar bg-light d-flex flex-column">
+    <div class="sidebar position-relative bg-light d-flex flex-column">
       <h1 class="logo">
         <a href="#">logo</a>
       </h1>
-      <div class="sidebar-content d-flex flex-column justify-content-between">
-        <ul class="sidebars-list px-5">
+      <div class="sidebar-content d-flex flex-column justify-content-between ">
+        <ul class="sidebars-list ">
           <li class="sidebars-item ">
             <a class="d-flex align-items-center  py-3 fw-bold" href="#">
               <span class="material-icons me-3 fs-4 fw-bold">
@@ -56,7 +56,15 @@
               </span>Settings</a>
           </li>
         </ul>
-        <div class="sidibar-user">
+      </div>
+      <div class="account position-absolute fixed-bottom d-flex align-items-center ms-5 mb-5">
+        <div class="d-flex align-items-center">
+          <div class="flex-shrink-0">
+            <img class="account-image" src="./assets/images/andychen.jpeg" alt="...">
+          </div>
+          <div class="flex-grow-1 ms-3 ">
+            Andy Chen<br> andy0401@mail.com
+          </div>
 
         </div>
       </div>
