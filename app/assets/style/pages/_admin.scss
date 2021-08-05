@@ -3,3 +3,18 @@
     height: 141px;
     object-fit: cover;
 }
+
+.expand_more {
+    display: none;
+}
+
+.collapsed .expand_less {
+    display: none;
+}
+
+.expand_less {
+    display: inline-block;
+}
+.collapsed .expand_more {
+    display: inline-block;
+}
