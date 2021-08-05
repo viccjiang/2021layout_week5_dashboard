@@ -12735,6 +12735,22 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, h7 .h1, .h2, .h3, .h4, .h5
      object-fit: cover;
 }
 
+.expand_more {
+  display: none;
+}
+
+.collapsed .expand_less {
+  display: none;
+}
+
+.expand_less {
+  display: inline-block;
+}
+
+.collapsed .expand_more {
+  display: inline-block;
+}
+
 .content-navbar {
   padding: 32px 32px 44px 32px;
 }
