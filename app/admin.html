@@ -109,15 +109,12 @@ current: index
                         <td>Yes</td>
                         <td>
                             <div class="d-flex">
-
                                 <!-- Button trigger modal -->
                                 <a href="#" data-bs-toggle="modal" data-bs-target="#modal-view">
                                     <i class="material-icons">
                                         visibility
                                     </i>
                                 </a>
-
-
                                 <!-- Modal -->
                                 <div class="modal fade " id="modal-view" tabindex="-1" aria-labelledby="modal-view"
                                     aria-hidden="true">
@@ -178,12 +175,68 @@ current: index
                                 </div>
 
 
-
-                                <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                <!-- Button trigger modal -->
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#modal-edit-full">
                                     <i class="material-icons">
                                         edit
                                     </i>
                                 </a>
+                                <!-- Modal -->
+                                <div class="modal  fade" id="modal-edit-full" data-bs-backdrop="static"
+                                    data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="staticBackdropLabel">Edit</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body ">
+                                                <form>
+                                                    <h5>修改狀態 Account</h5>
+                                                    <div class="mb-3">
+                                                        <label for="name" class="form-label">Name</label>
+                                                        <input type="text" class="form-control" id="name"
+                                                            placeholder="OOO">
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="email" class="form-label">Email</label>
+                                                        <input type="email" class="form-control" id="email"
+                                                            placeholder="name@example.com">
+                                                    </div>
+
+                                                    <hr>
+
+                                                    <h5>Verification</h5>
+                                                    <div class="d-flex">
+                                                        <span class=" text-danger material-icons-outlined me-2">
+                                                            warning
+                                                        </span>
+                                                        <p class=" mb-0">Unverified</p>
+                                                    </div>
+
+                                                    <div class="mb-3">
+
+                                                        <input type="button"
+                                                            class="text-success text-center form-control" id="name"
+                                                            placeholder="OOO" value="Send Verification Mail">
+                                                    </div>
+
+
+
+
+                                                </form>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cancel </button>
+                                                <button type="button" class="btn btn-primary"
+                                                    data-bs-dismiss="modal">Add</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
 
                         </td>
