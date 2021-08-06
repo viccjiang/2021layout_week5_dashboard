@@ -12697,7 +12697,10 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, h7 .h1, .h2, .h3, .h4, .h5
 }
 
 .content {
-  width: 984px;
+  max-width: 984px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 
 .main {
@@ -12759,6 +12762,29 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, h7 .h1, .h2, .h3, .h4, .h5
   width: 40px;
   height: 40px;
   border-radius: 50px;
+}
+
+.fadeInUpBig {
+  position: fixed;
+  width: 40%;
+  height: 20%;
+  bottom: 20px;
+  right: 65px;
+  display: none;
+  z-index: 120;
+  background: #fff;
+}
+
+.site_item1 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.site_item2 {
+  position: absolute;
+  bottom: 0;
+  right: 15%;
 }
 
 /*# sourceMappingURL=all.css.map */
