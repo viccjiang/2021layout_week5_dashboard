@@ -9,3 +9,30 @@
   height: 40px;
   border-radius:50px;
 }
+
+
+
+//上拉選單 打開ckeditor
+.fadeInUpBig{
+  position: fixed; 
+  width:40%; 
+  height: 20%; 
+  bottom: 20px;
+  right: 65px;
+  display: none; 
+  z-index: 120;
+  background: #fff;
+}
+
+.site_item1{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+ 
+}
+
+.site_item2{
+  position: absolute;
+  bottom: 0;
+  right: 15%;
+}
